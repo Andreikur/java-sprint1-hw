@@ -1,7 +1,7 @@
 public class StepTracker {
     int[][] passedMonthDay;    //создание массива 12 месяце по 30 дней для хранения пройденных шагов
     int passed;                 //пройденный путь за день, промежуточная переменная;
-    int sumSteps = 0;
+    int sumSteps;
     int maxSteps;
     int bestSeries;         //лучшая серия;
     int series;
